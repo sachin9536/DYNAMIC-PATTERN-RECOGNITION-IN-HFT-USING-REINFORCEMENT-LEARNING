@@ -1,0 +1,17 @@
+project:
+  name: PR_project
+  seed: 42
+
+data:
+  lobster_path: data/raw/lobster/
+  exchange_paths:
+    - data/raw/binance/
+
+training:
+  seq_len: 100
+  time_bin_ms: 50
+  batch_size: 256
+
+rl:
+  algo: ppo
+  cvar_alpha: 0.95

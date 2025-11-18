@@ -1,0 +1,83 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python caches & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Installer / packaging
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data + models (do not commit datasets or model weights)
+data/raw/
+data/processed/
+data/*.csv
+artifacts/
+artifacts/*
+models/
+models/*
+synthetic/
+synthetic/*
+best_model/
+checkpoints/
+eval/
+eval_logs/
+explanations/
+tb_logs/
+test_cache/
+test_dashboard/
+
+# Common large binary formats
+*.h5
+*.pth
+*.ckpt
+*.model
+*.onnx
+*.tfrecord
+*.pb
+*.npz
+*.npy
+*.pkl
+
+# Logs, coverage, profiling
+*.log
+*.out
+coverage.xml
+.coverage
+htmlcov/
+.pyrightcache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets / environment files
+.env
+.env.*
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Pytest
+.pytest_cache/
+
+# Windows
+Desktop.ini
+
+# Other
+*.sqlite3
